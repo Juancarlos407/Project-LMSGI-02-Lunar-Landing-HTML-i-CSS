@@ -35,7 +35,7 @@ background-image:url("../img/space.png");
        height:30%;
       }
 
-  #cpanel{
+      #cpanel{
           position:relative;
           float:left;
           list-style:none;
@@ -128,4 +128,17 @@ background-image:url("../img/space.png");
                   }
                   a:active {
                   color: white;
+                  }
+                  #helptime li, #helptime a {
+                      height: 32px;
+                      width: 32px;
+                      display:block;
+                  }
+
+                  #help {
+                      background: url('../img/sprite.png') -32px 0;
+                  }
+
+                  #help a:hover {
+                      background: url('../img/sprite.png') 0px 0;
                   }
