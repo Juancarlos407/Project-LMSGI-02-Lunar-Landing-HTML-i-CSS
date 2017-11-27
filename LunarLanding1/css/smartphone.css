@@ -38,15 +38,15 @@ background-image:url("../img/space.png");
 #cpanel{
     border:3px solid #454545;
     box-shadow:2px 2px 8px #200000;
-    border-radius:150px;
+    border-radius:300px;
     font-family: Verdana;
     position:relative;
     background-color:#202020;
     float:left;
     text-align: center;
     display:block;
-    width:17%;
-    height:30%;
+    width:30%;
+    height:50%;
     font-size:17px;
     line-height:30px;
     padding-left:0px;
@@ -64,7 +64,7 @@ background-image:url("../img/space.png");
             height: 33px;
             margin: 10px;
             border-radius: 20px;
-            text-align: middle;
+            text-align: center;
 
             }
             #fuel
