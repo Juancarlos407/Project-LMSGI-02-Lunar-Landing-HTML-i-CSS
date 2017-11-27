@@ -1,0 +1,143 @@
+body,html{
+  height:100%;padding:0px;margin:0px
+}
+body{
+background-image:url("../img/space.png");
+}
+
+.a,.c{
+    display:inline-block;
+    width:50%;
+    height:60%;
+    float:left;
+    margin-top:5%;
+    }
+
+#nave{
+  text-align:center;
+  position:fixed;
+  top:5%;
+  width:100%;
+  height:20%;
+}
+#nave img{
+  height:100%;
+}
+#moon{
+  text-align:center;
+  bottom:-80%;
+  position:fixed;
+  width:100%;
+  height:100%;
+}
+
+#moon img{
+       height:30%;
+      }
+
+#cpanel{
+    border:3px solid #454545;
+    box-shadow:2px 2px 8px #200000;
+    border-radius:150px;
+    font-family: Verdana;
+    position:relative;
+    background-color:#202020;
+    float:left;
+    text-align: center;
+    display:block;
+    width:17%;
+    height:30%;
+    font-size:17px;
+    line-height:30px;
+    padding-left:0px;
+    list-style:none;
+    }
+
+    #speed
+    {
+
+            box-shadow:2px 2px 8px #000000;
+            font-family: Verdana;
+            background-color: red;
+            display:block;
+            width: 120px;
+            height: 33px;
+            margin: 10px;
+            border-radius: 20px;
+            text-align: middle;
+
+            }
+            #fuel
+            {
+
+                    box-shadow:2px 2px 8px #000000;
+                    font-family: Verdana;
+                    background-color: orange;
+                    display:block;
+                    width: 120px;
+                    height: 30px;
+                    margin: 10px;
+                    border-radius: 20px;
+                    text-align: center;
+                    }
+                    #distance
+                    {
+
+                            box-shadow:2px 2px 8px #000000;
+                            font-family: Verdana;
+                            background-color: yellow;
+                            display:block;
+                            width: 120px;
+                            height: 30px;
+                            margin: 10px;
+                            border-radius: 20px;
+                            text-align: center;
+                            }
+
+#menu {
+    float:right;
+    text-align: center;
+    display:block;
+    width:17%;
+    height:45%;
+    font-size:15px;
+    line-height:44px;
+    padding-left:0px;
+    list-style:none;
+    }
+
+.button {
+         font-family: Verdana;
+         font-size:17px;
+         color: white;
+         border-radius:6px;
+         width: 100px;
+         height:35px;
+         text-align: center;
+         background-color:#404040;
+         box-shadow:2px 2px 8px #200000;
+         }
+         .active {
+                  font-family: Verdana;
+                  font-size:17px;
+                  color: white;
+                  border-radius:6px;
+                  width: 100px;
+                  height:35px;
+                  text-align: center;
+                  background-color:#808080;
+                  box-shadow:2px 2px 8px #200000;
+                  }
+
+                  a:link {
+                  color: white;
+                  }
+                  a:visited {
+                  color: white;
+                  }
+                  a:hover {
+                  color: white;
+                  }
+                  a:active {
+                  color: white;
+                  }
