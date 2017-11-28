@@ -10,7 +10,7 @@ _Ha sido interesante el uso de sprites, en mi caso busque cuatro imagenes pareci
 
 _También he adaptado el estilo para que se vea correcto tanto en un ordenador como en un dispositivo pequeño, la idea ha sido cambiar poco el aspecto visual, pero que por ejemplo la luna se adapte a una pantalla en vertical, pese a que el juego este pensado para jugarse horizontal, con todos los controles siempre en la mano derecha, y un pequeño aumento de los mismos para que sean practicables asi como de los datos para que se lean mejor._
 
-_Por último he creado una branch en github con una versión minimificada para su uso en servidor utilizando el menor espacio._
+_Por último he creado una branch en github con una versión minimificada para su uso en servidor utilizando el menor espacio, también incluyo tres capturas de visualización, tanto en pc como en smartphone._
 
 Puedes visitar mi página [Aquí](https://rawgit.com/Juancarlos407/Projecte-LMSGI-02-Lunar-Landing-HTML-i-CSS/master/LunarLanding1/index.html)
 
