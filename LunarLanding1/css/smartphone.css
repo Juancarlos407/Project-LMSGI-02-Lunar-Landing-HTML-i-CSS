@@ -22,6 +22,7 @@ background-image:url("../img/space.png");
 }
 #nave img{
   height:100%;
+
 }
 #moon{
   text-align:center;
@@ -36,7 +37,6 @@ background-image:url("../img/space.png");
       }
 
 #cpanel{
-
     position:relative;
     float:left;
     text-align: center;
@@ -50,40 +50,30 @@ background-image:url("../img/space.png");
 
     #speed
     {
-
-
             background-color: red;
             display:block;
             width: 200px;
             height: 25px;
             margin: 10px;
             border-radius: 2px;
-
-
             }
             #fuel
             {
-
-
                     background-color: orange;
                     display:block;
                     width: 200px;
                     height: 25px;
                     margin: 10px;
                     border-radius: 2px;
-
                     }
                     #distance
                     {
-
-
                             background-color: yellow;
                             display:block;
                             width: 200px;
                             height: 25px;
                             margin: 10px;
                             border-radius: 2px;
-
                             }
 
 #menu {
@@ -109,60 +99,37 @@ background-image:url("../img/space.png");
          background-color:#404040;
          box-shadow:2px 2px 8px #200000;
          }
-         .active {
-                  font-family: Verdana;
-                  font-size:17px;
-                  color: white;
-                  border-radius:6px;
-                  width: 100px;
-                  height:35px;
-                  text-align: center;
-                  background-color:#808080;
-                  box-shadow:2px 2px 8px #200000;
-                  }
-
                   a:link {
                   color: white;
                   }
                   a:visited {
                   color: white;
                   }
-                  a:hover {
-                  color: white;
-                  }
-                  a:active {
-                  color: white;
-                  }
 
-
-
-
-                   #helptime {
-                       position: absolute;
-                       right: 110px;
-
-                    }
-
-                    #helptime li {
-                        margin: 0;
-                        padding: 0;
-                        list-style: none;
-                        position: absolute;
-                        top: 20px;
-                    }
-
-                  #helptime li, #helptime a {
+                      #helptime {
+                      position: absolute;
+                      right: 110px;
+                      }
+                      #helptime li {
+                      margin: 0;
+                      padding: 0;
+                      list-style: none;
+                      position: absolute;
+                      top: 20px;
+                      }
+                      #helptime li, #helptime a {
                       height: 30px;
                       display: block;
-                  }
+                      }
 
-
-                  #h  {
+                      #h  {
                       left: 100px;
                       width: 32px;
                       background: url('../img/sprite.png') -32px 0px;
-                  }
-
-                  #h a:hover {
+                      }
+                      #h a:hover {
                       background: url('../img/sprite.png') -64px 0;
-                  }
+                      }
+                      #h a:active {
+                      background: url('../img/sprite.png') 32px 0;
+                      }
