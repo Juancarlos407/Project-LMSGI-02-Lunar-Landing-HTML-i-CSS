@@ -35,51 +35,55 @@ background-image:url("../img/space.png");
        height:30%;
       }
 
-      #cpanel{
-          position:relative;
-          float:left;
-          list-style:none;
-          }
+#cpanel{
+
+    position:relative;
+    float:left;
+    text-align: center;
+    display:block;
+    font-family: Verdana;
+    font-size:17px;
+    line-height:25px;
+    padding-left:0px;
+    list-style:none;
+    }
 
     #speed
     {
 
-            box-shadow:2px 2px 8px #000000;
-            font-family: Verdana;
+
             background-color: red;
             display:block;
-            width: 120px;
-            height: 33px;
+            width: 200px;
+            height: 25px;
             margin: 10px;
-            border-radius: 20px;
-            text-align: center;
+            border-radius: 2px;
+
 
             }
             #fuel
             {
 
-                    box-shadow:2px 2px 8px #000000;
-                    font-family: Verdana;
+
                     background-color: orange;
                     display:block;
-                    width: 120px;
-                    height: 30px;
+                    width: 200px;
+                    height: 25px;
                     margin: 10px;
-                    border-radius: 20px;
-                    text-align: center;
+                    border-radius: 2px;
+
                     }
                     #distance
                     {
 
-                            box-shadow:2px 2px 8px #000000;
-                            font-family: Verdana;
+
                             background-color: yellow;
                             display:block;
-                            width: 120px;
-                            height: 30px;
+                            width: 200px;
+                            height: 25px;
                             margin: 10px;
-                            border-radius: 20px;
-                            text-align: center;
+                            border-radius: 2px;
+
                             }
 
 #menu {
@@ -129,16 +133,19 @@ background-image:url("../img/space.png");
                   a:active {
                   color: white;
                   }
-                  #helptime li, #helptime a {
+
+                  .helptime, .helptime a {
+                    background: url('../img/sprite.png') -32px 0;
+                      float:right;
                       height: 32px;
                       width: 32px;
                       display:block;
                   }
 
-                  #help {
-                      background: url('../img/sprite.png') -32px 0;
+                  #help a:hover {
+                      background: url('../img/sprite.png') 32px 0;
                   }
 
-                  #help a:hover {
-                      background: url('../img/sprite.png') 0px 0;
+                  #help a:active {
+                      background: url('../img/sprite.png') 64px 0;
                   }
