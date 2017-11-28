@@ -50,7 +50,7 @@ background-image:url("../img/space.png");
 
     #speed
     {
-            background-color: red;
+            background-color: green;
             display:block;
             width: 200px;
             height: 25px;
@@ -59,7 +59,7 @@ background-image:url("../img/space.png");
             }
             #fuel
             {
-                    background-color: orange;
+                    background-color: blue;
                     display:block;
                     width: 200px;
                     height: 25px;
@@ -68,7 +68,7 @@ background-image:url("../img/space.png");
                     }
                     #distance
                     {
-                            background-color: yellow;
+                            background-color: grey;
                             display:block;
                             width: 200px;
                             height: 25px;
