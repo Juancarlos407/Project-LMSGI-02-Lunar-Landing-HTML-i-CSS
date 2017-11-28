@@ -134,18 +134,35 @@ background-image:url("../img/space.png");
                   color: white;
                   }
 
-                  .helptime, .helptime a {
-                    background: url('../img/sprite.png') -32px 0;
-                      float:right;
-                      height: 32px;
+
+
+
+                   #helptime {
+                       position: absolute;
+                       right: 110px;
+
+                    }
+
+                    #helptime li {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        position: absolute;
+                        top: 20px;
+                    }
+
+                  #helptime li, #helptime a {
+                      height: 30px;
+                      display: block;
+                  }
+
+
+                  #h  {
+                      left: 100px;
                       width: 32px;
-                      display:block;
+                      background: url('../img/sprite.png') -32px 0px;
                   }
 
-                  #help a:hover {
-                      background: url('../img/sprite.png') 32px 0;
-                  }
-
-                  #help a:active {
-                      background: url('../img/sprite.png') 64px 0;
+                  #h a:hover {
+                      background: url('../img/sprite.png') -64px 0;
                   }
